@@ -49,9 +49,6 @@ const findMetaMaskAccount = async () => {
   }
 };
 
-const App = () => {
-  const [currentAccount, setCurrentAccount] = useState("");
-
   const connectWallet = async () => {
     try {
       const ethereum = getEthereumObject();
@@ -131,3 +128,4 @@ const App = () => {
 };
 
 export default App;
+};
